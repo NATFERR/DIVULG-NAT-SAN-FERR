@@ -33,6 +33,7 @@ header {
     padding-bottom: 3em;
     padding-left: 2em;
     padding-right: 2em;
+    font-size: 2rem;
 }
 
 /*convert to flex for positioning------------------------------------------------------------------*/
@@ -64,4 +65,11 @@ justify-content: space-between;
 
 .col {
     text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: sevillana; 
+    font-weight: 200;
+    letter-spacing: .4rem;
 }
