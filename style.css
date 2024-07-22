@@ -1,5 +1,53 @@
-/*ids de livros/*
-livro1
-O filosofo autodidata
-livro2
-Autobiografia de Charles Darwin
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sevillana&display=swap');
+
+
+/*reset browzer config------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*reusable center content wrapper*/
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+header {
+    /* background-color: #D78f77; */
+    padding-top: 1em; 
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/*convert to flex for positioning------------------------------------------------------------------*/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+section {
+    padding-bottom: 3em;
+}
